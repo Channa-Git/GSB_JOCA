@@ -18,6 +18,16 @@
         </TransformGroup>
       </Button.RenderTransform>
     </Button>
+    <TextBox HorizontalAlignment="Left" Margin="230,148,0,0" Text="TextBox_de_jim" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" TextChanged="TextBox_TextChanged_1" RenderTransformOrigin="0.5,0.5">
+      <TextBox.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform Angle="60.761"/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </TextBox.RenderTransform>
+    </TextBox>
 
   </Grid>
 </Window>
