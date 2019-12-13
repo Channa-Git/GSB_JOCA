@@ -6,8 +6,18 @@
         xmlns:local="clr-namespace:GSB_JOCA"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox HorizontalAlignment="Left" Margin="371,163,0,0" Text="Bonjour les jeunes" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Height="54" RenderTransformOrigin="0.489,0.606"/>
+  <Grid>
+    <TextBox HorizontalAlignment="Left" Margin="371,163,0,0" Text="Bonjour les jeunes" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Height="54" RenderTransformOrigin="0.489,0.606"/>
+    <Button Content="Coucou l'équipe" HorizontalAlignment="Left" Height="30" Margin="126,84,0,0" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.5,0.5">
+      <Button.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform Angle="-49.401"/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </Button.RenderTransform>
+    </Button>
 
-    </Grid>
+  </Grid>
 </Window>
