@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
   <Grid>
-    <TextBox HorizontalAlignment="Left" Margin="371,163,0,0" Text="Bonjour les jeunes modif 1 2 et 3" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Height="54" RenderTransformOrigin="0.489,0.606"/>
+    <TextBox HorizontalAlignment="Left" Margin="371,163,0,0" Text="Bonjour les jeunes modif 1 2 et 3 et 4" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Height="54" RenderTransformOrigin="0.489,0.606"/>
     <Button Content="Coucou l'équipe" HorizontalAlignment="Left" Height="30" Margin="126,84,0,0" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.5,0.5">
       <Button.RenderTransform>
         <TransformGroup>
@@ -28,6 +28,7 @@
         </TransformGroup>
       </TextBox.RenderTransform>
     </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="170,262,0,0" Text="MODIF OZ" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
 
-  </Grid>
+    </Grid>
 </Window>
